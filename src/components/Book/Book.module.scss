@@ -1,0 +1,138 @@
+@import '../../styles/variables';
+
+.card {
+  height: 38rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 2rem 0;
+  position: relative;
+  perspective: 150rem;
+}
+
+.side {
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.3rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotateY(180deg);
+}
+
+.rotateFront {
+  transform: rotateY(-180deg);
+}
+
+.rotateBack {
+  transform: rotateY(0);
+}
+
+.description {
+  padding: 0.5rem 1rem;
+}
+
+.imgContainer {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+}
+
+.ratingContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 6rem solid rgba(0, 0, 0, 0.6);
+  border-left: 6rem solid transparent;
+}
+
+.rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: $color-accent;
+  font-size: 2.8rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  width: 100%;
+  height: 4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.meta {
+  font-size: 1.2rem;
+  color: $color-grey-dark;
+  margin-top: 2rem;
+}
+
+.author {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.titleBack {
+  font-weight: 400;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  flex-grow: 1;
+  align-content: flex-start;
+}
+
+.rateButton {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.3rem;
+  background: linear-gradient(
+    to right bottom,
+    $color-orange-light,
+    $color-orange-dark
+  );
+  box-shadow: 0 0.5rem 2rem rgba($color-black, 0.15);
+  color: $color-white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
