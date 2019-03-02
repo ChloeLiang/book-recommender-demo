@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.navbar {
+  background: $color-primary;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+}

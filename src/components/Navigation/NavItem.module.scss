@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.navItem {
+  display: flex;
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &:hover {
+    background: $color-primary-dark;
+    cursor: pointer;
+  }
+}
