@@ -1,4 +1,4 @@
-export const books = [
+export const allBooks = [
   {
     ISBN: '002542730X',
     title:
