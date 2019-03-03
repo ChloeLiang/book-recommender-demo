@@ -75,7 +75,7 @@ export const allBooks = [
     title: 'One for the Money (Stephanie Plum Novels (Paperback))',
     author: 'Janet Evanovich',
     year: 1995,
-    image: 'http://images.amazon.com/images/P/0061009059.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/7/7a/1fortheMoney_novel.jpg',
   },
   {
     ISBN: '0316776963',
@@ -187,7 +187,7 @@ export const allBooks = [
     title: 'Presumed Innocent',
     author: 'Scott Turow',
     year: 1988,
-    image: 'http://images.amazon.com/images/P/0446350982.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1404412704l/425029.jpg',
   },
   {
     ISBN: '0446600415',
@@ -640,7 +640,7 @@ export const allBooks = [
     title: 'One True Thing',
     author: 'Anna Quindlen',
     year: 1995,
-    image: 'http://images.amazon.com/images/P/044022103X.01.LZZZZZZZ.jpg',
+    image: 'https://i.pinimg.com/originals/ec/25/10/ec2510e85e649c0274dd0e7e57171409.jpg',
   },
   {
     ISBN: '0440223571',
@@ -864,7 +864,7 @@ export const allBooks = [
     title: 'Cold Sassy Tree',
     author: 'Olive Ann Burns',
     year: 1986,
-    image: 'http://images.amazon.com/images/P/0440514428.01.LZZZZZZZ.jpg',
+    image: 'https://www.llfbooks.com/assets/images/product/3521.jpg',
   },
   {
     ISBN: '0446679593',
@@ -1085,13 +1085,6 @@ export const allBooks = [
     image: 'http://images.amazon.com/images/P/0380789035.01.LZZZZZZZ.jpg',
   },
   {
-    ISBN: '0380973650',
-    title: 'American Gods: A Novel',
-    author: 'Neil Gaiman',
-    year: 2001,
-    image: 'http://images.amazon.com/images/P/0380973650.01.LZZZZZZZ.jpg',
-  },
-  {
     ISBN: '0439064864',
     title: 'Harry Potter and the Chamber of Secrets (Book 2)',
     author: 'J. K. Rowling',
@@ -1099,25 +1092,11 @@ export const allBooks = [
     image: 'http://images.amazon.com/images/P/0439064864.01.LZZZZZZZ.jpg',
   },
   {
-    ISBN: '0439064872',
-    title: 'Harry Potter and the Chamber of Secrets (Book 2)',
-    author: 'J. K. Rowling',
-    year: 2000,
-    image: 'http://images.amazon.com/images/P/0439064872.01.LZZZZZZZ.jpg',
-  },
-  {
     ISBN: '0439136350',
     title: 'Harry Potter and the Prisoner of Azkaban (Book 3)',
     author: 'J. K. Rowling',
     year: 1999,
     image: 'http://images.amazon.com/images/P/0439136350.01.LZZZZZZZ.jpg',
-  },
-  {
-    ISBN: '0439136369',
-    title: 'Harry Potter and the Prisoner of Azkaban (Book 3)',
-    author: 'J. K. Rowling',
-    year: 2001,
-    image: 'http://images.amazon.com/images/P/0439136369.01.LZZZZZZZ.jpg',
   },
   {
     ISBN: '0439139597',
@@ -1385,7 +1364,7 @@ export const allBooks = [
     title: 'Stanislaski Brothers (Silhouette Promo)',
     author: 'Nora Roberts',
     year: 2000,
-    image: 'http://images.amazon.com/images/P/0373484224.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1214283215l/114142.jpg',
   },
   {
     ISBN: '0380018179',
@@ -1505,7 +1484,7 @@ export const allBooks = [
     title: "Valley of the Horses (Auel, Jean M. , Earth's Children.)",
     author: 'Jean M. Auel',
     year: 1983,
-    image: 'http://images.amazon.com/images/P/0553234811.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51HK0F4S64L.jpg',
   },
   {
     ISBN: '0553296981',
@@ -1519,7 +1498,7 @@ export const allBooks = [
     title: 'The Color Purple',
     author: 'Alice Walker',
     year: 1985,
-    image: 'http://images.amazon.com/images/P/0671617028.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/6/60/ColorPurple.jpg',
   },
   {
     ISBN: '0060512822',
@@ -1597,7 +1576,7 @@ export const allBooks = [
     title: 'The Tommyknockers',
     author: 'Stephen King',
     year: 1987,
-    image: 'http://images.amazon.com/images/P/0399133143.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71aqBNyQhzL.jpg',
   },
   {
     ISBN: '0446611239',
@@ -1940,7 +1919,7 @@ export const allBooks = [
     title: 'Thinner',
     author: 'Stephen King',
     year: 1985,
-    image: 'http://images.amazon.com/images/P/0451137965.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1543570806l/457052.jpg',
   },
   {
     ISBN: '051512463X',
@@ -1975,7 +1954,7 @@ export const allBooks = [
     title: "Hitchhikers's Guide to the Galaxy",
     author: 'Douglas Adams',
     year: 1984,
-    image: 'http://images.amazon.com/images/P/0671527215.01.LZZZZZZZ.jpg',
+    image: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/3454/9780345453747.jpg',
   },
   {
     ISBN: '0060392452',
@@ -2137,7 +2116,7 @@ export const allBooks = [
     title: 'FIRST WIVES CLUB',
     author: 'Olivia Goldsmith',
     year: 1993,
-    image: 'http://images.amazon.com/images/P/0671797050.01.LZZZZZZZ.jpg',
+    image: 'http://photo.goodreads.com/books/1258009721l/1598010.jpg',
   },
   {
     ISBN: '0805063897',
@@ -2404,7 +2383,7 @@ export const allBooks = [
     title: 'The Lost World',
     author: 'Michael Crichton',
     year: 1996,
-    image: 'http://images.amazon.com/images/P/034540288X.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/41AFWPPAp3L._SX277_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0380012863',
@@ -3686,7 +3665,7 @@ export const allBooks = [
     title: 'A Simple Plan',
     author: 'Scott Smith',
     year: 1994,
-    image: 'http://images.amazon.com/images/P/0312952716.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1388431636l/2093807.jpg',
   },
   {
     ISBN: '0312966091',
@@ -3871,7 +3850,7 @@ export const allBooks = [
     title: 'RUSSIA HOUSE, THE',
     author: 'JOHN LE CARRE',
     year: 1990,
-    image: 'http://images.amazon.com/images/P/0553285343.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/81/JohnLeCarre_TheRussiaHouse.jpg/220px-JohnLeCarre_TheRussiaHouse.jpg',
   },
   {
     ISBN: '0671011375',
@@ -4177,13 +4156,6 @@ export const allBooks = [
     image: 'http://images.amazon.com/images/P/0425155722.01.LZZZZZZZ.jpg',
   },
   {
-    ISBN: '0439139600',
-    title: 'Harry Potter and the Goblet of Fire (Book 4)',
-    author: 'J. K. Rowling',
-    year: 2002,
-    image: 'http://images.amazon.com/images/P/0439139600.01.LZZZZZZZ.jpg',
-  },
-  {
     ISBN: '0440224594',
     title: 'The Return Journey',
     author: 'MAEVE BINCHY',
@@ -4482,7 +4454,7 @@ export const allBooks = [
     title: 'The Chosen',
     author: 'Chaim Potok',
     year: 1995,
-    image: 'http://images.amazon.com/images/P/0449213447.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1403191327l/187181.jpg',
   },
   {
     ISBN: '0451163966',
@@ -4496,7 +4468,7 @@ export const allBooks = [
     title: 'SKINNY LEGS AND ALL',
     author: 'TOM ROBBINS',
     year: 1991,
-    image: 'http://images.amazon.com/images/P/0553289691.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Skinnylegs.jpg/220px-Skinnylegs.jpg',
   },
   {
     ISBN: '0553574663',
@@ -4616,7 +4588,7 @@ export const allBooks = [
     title: 'The Stone Monkey (Lincoln Rhyme Novels (Paperback))',
     author: 'Jeffery Deaver',
     year: 2003,
-    image: 'http://images.amazon.com/images/P/0743437802.01.LZZZZZZZ.jpg',
+    image: 'https://www.jefferydeaver.com/wp-content/uploads/2013/01/TheStoneMonkeyMM.jpg',
   },
   {
     ISBN: '0060096195',
@@ -4961,7 +4933,7 @@ export const allBooks = [
     title: 'Christy',
     author: 'Catherine Marshall',
     year: 1976,
-    image: 'http://images.amazon.com/images/P/0380001411.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51YNd1vhjjL._SX303_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0380710722',
@@ -5150,7 +5122,7 @@ export const allBooks = [
     title: "Charlotte's Web",
     author: 'E. B. White',
     year: 1974,
-    image: 'http://images.amazon.com/images/P/059030271X.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51tP8AeYLPL._SX331_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0671250671',
@@ -6047,7 +6019,7 @@ export const allBooks = [
     title: 'Dune',
     author: 'Frank Herbert',
     year: 1984,
-    image: 'http://images.amazon.com/images/P/0425080021.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51EfGuAoAqL.jpg',
   },
   {
     ISBN: '0425100650',
@@ -6089,14 +6061,14 @@ export const allBooks = [
     title: 'SEEDS OF YESTERDY (Dollanger Saga (Paperback))',
     author: 'V.C. Andrews',
     year: 1984,
-    image: 'http://images.amazon.com/images/P/0671443283.01.LZZZZZZZ.jpg',
+    image: 'https://cdn1.thr.com/sites/default/files/imagecache/NFE_portrait/2014/10/seeds_of_yesterday_cover.jpg',
   },
   {
     ISBN: '0671670646',
     title: 'Gates of Paradise',
     author: 'V.C. Andrews',
     year: 1989,
-    image: 'http://images.amazon.com/images/P/0671670646.01.LZZZZZZZ.jpg',
+    image: 'https://images.gr-assets.com/books/1388274393l/53072.jpg',
   },
   {
     ISBN: '0671670689',
@@ -6258,7 +6230,7 @@ export const allBooks = [
     title: 'Name of the Rose-Nla',
     author: 'Umberto Eco',
     year: 1984,
-    image: 'http://images.amazon.com/images/P/0446322180.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71yygIVCDXL.jpg',
   },
   {
     ISBN: '0515113328',
@@ -6385,14 +6357,14 @@ export const allBooks = [
     title: 'Different Seasons',
     author: 'Stephen King',
     year: 1983,
-    image: 'http://images.amazon.com/images/P/0451124340.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/61cxm5XXvJL._SX325_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0451147367',
     title: 'The Bachman Books: Rage, the Long Walk, Roadwork, the Running Man',
     author: 'Stephen King',
     year: 1991,
-    image: 'http://images.amazon.com/images/P/0451147367.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Bachmanbooks.JPG',
   },
   {
     ISBN: '0451162072',
@@ -7003,7 +6975,7 @@ export const allBooks = [
     title: 'The Cat Who Came for Christmas',
     author: 'Cleveland Amory',
     year: 1989,
-    image: 'http://images.amazon.com/images/P/0140113428.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51BDd6EpkPL._SX322_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0140143505',
@@ -7257,7 +7229,7 @@ export const allBooks = [
     title: 'Eaters of the Dead',
     author: 'MICHAEL CRICHTON',
     year: 1988,
-    image: 'http://images.amazon.com/images/P/0345354613.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Big-eatersofthedead.jpg/200px-Big-eatersofthedead.jpg',
   },
   {
     ISBN: '0345354621',
@@ -7572,7 +7544,7 @@ export const allBooks = [
     title: 'The Mosquito Coast',
     author: 'Paul Theroux',
     year: 1990,
-    image: 'http://images.amazon.com/images/P/0380619458.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/78/TheMosquitoCoastNovel.jpg/220px-TheMosquitoCoastNovel.jpg',
   },
   {
     ISBN: '0380721643',
@@ -7693,7 +7665,7 @@ export const allBooks = [
       'Like Water for Chocolate: A Novel in Monthly Installments With Recipes, Romances and Home Remedies',
     author: 'Laura Esquivel',
     year: 1994,
-    image: 'http://images.amazon.com/images/P/0385474016.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51Ncv9bpRmL._SX318_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '038549081X',
@@ -7828,7 +7800,7 @@ export const allBooks = [
     title: 'The Hunt for Red October',
     author: 'Tom Clancy',
     year: 1990,
-    image: 'http://images.amazon.com/images/P/0425120279.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/9102nErnX2L.jpg',
   },
   {
     ISBN: '0425121259',
@@ -8722,21 +8694,21 @@ export const allBooks = [
     title: 'Pet Sematary',
     author: 'Stephen King',
     year: 1984,
-    image: 'http://images.amazon.com/images/P/0451132378.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/52/StephenKingPetSematary.jpg/220px-StephenKingPetSematary.jpg',
   },
   {
     ISBN: '0451149513',
     title: 'It',
     author: 'Stephen King',
     year: 1987,
-    image: 'http://images.amazon.com/images/P/0451149513.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81D1Kl8Y5lL._RI_.jpg',
   },
   {
     ISBN: '0451153553',
     title: 'Misery',
     author: 'Stephen King',
     year: 1988,
-    image: 'http://images.amazon.com/images/P/0451153553.01.LZZZZZZZ.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Stephen_King_Misery_cover.jpg/220px-Stephen_King_Misery_cover.jpg',
   },
   {
     ISBN: '0451167805',
@@ -9102,7 +9074,7 @@ export const allBooks = [
     title: 'Couplehood',
     author: 'Paul Reiser',
     year: 1994,
-    image: 'http://images.amazon.com/images/P/0553096834.01.LZZZZZZZ.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71BYgKuP8VL.jpg',
   },
   {
     ISBN: '055321313X',
