@@ -13,7 +13,10 @@ export default function Book({ isbn, title, author, year, img, rating }) {
   }
 
   function handleButtonClick(rating) {
-    setRatedBooks(ratedBooks.concat({ isbn, rating }));
+    setRatedBooks({
+      isbn: ratedBooks.isbn.concat(isbn),
+      rating: ratedBooks.rating.concat(rating),
+    });
   }
 
   return (

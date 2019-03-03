@@ -20,12 +20,11 @@ export default function Home() {
     <React.Fragment>
       <div className={style.container}>
         {allBooks.slice(0, numOfBooksLoaded).map(book => {
-          let rating;
-          for (let i = 0; i < ratedBooks.length; i++) {
-            if (ratedBooks[i].isbn === book.ISBN) {
-              rating = ratedBooks[i].rating;
-            }
-          }
+          const foundIndex = ratedBooks.isbn.findIndex(
+            isbn => book.ISBN === isbn
+          );
+          const rating =
+            foundIndex !== -1 ? ratedBooks.rating[foundIndex] : null;
 
           return (
             <Book
