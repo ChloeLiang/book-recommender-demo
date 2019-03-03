@@ -9,7 +9,11 @@ export default function Home() {
   const { numOfBooksLoaded, setNumOfBooksLoaded } = context;
 
   function handleLoadMore() {
-    setNumOfBooksLoaded(numOfBooksLoaded + 20);
+    const numShouldLoad = numOfBooksLoaded + 20;
+    const totalBooksInStore = allBooks.length;
+    setNumOfBooksLoaded(
+      numShouldLoad > totalBooksInStore ? totalBooksInStore : numShouldLoad
+    );
   }
 
   return (
@@ -27,11 +31,13 @@ export default function Home() {
           />
         ))}
       </div>
-      <div className={style.btnContainer}>
-        <button className={style.loadButton} onClick={handleLoadMore}>
-          Load more
-        </button>
-      </div>
+      {numOfBooksLoaded < allBooks.length && (
+        <div className={style.btnContainer}>
+          <button className={style.loadButton} onClick={handleLoadMore}>
+            Load more
+          </button>
+        </div>
+      )}
     </React.Fragment>
   );
 }
