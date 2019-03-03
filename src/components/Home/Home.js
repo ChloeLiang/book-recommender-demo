@@ -1,19 +1,21 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import Book from '../Book';
+import { BooksContext } from '../../context';
 import { allBooks } from '../../data/books';
 import style from './Home.module.scss';
 
 export default function Home() {
-  const [numOfBooksLoaded, setNumOfBooksLoaded] = useState(20);
+  const context = useContext(BooksContext);
+  const { books, setBooks } = context;
 
   function handleLoadMore() {
-    setNumOfBooksLoaded(numOfBooksLoaded + 20);
+    setBooks(books.concat(allBooks.slice(books.length, books.length + 20)));
   }
 
   return (
     <React.Fragment>
       <div className={style.container}>
-        {allBooks.slice(0, numOfBooksLoaded).map(book => (
+        {books.map(book => (
           <Book
             key={book.ISBN}
             isbn={book.ISBN}
