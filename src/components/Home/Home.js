@@ -6,16 +6,16 @@ import style from './Home.module.scss';
 
 export default function Home() {
   const context = useContext(BooksContext);
-  const { books, setBooks } = context;
+  const { numOfBooksLoaded, setNumOfBooksLoaded } = context;
 
   function handleLoadMore() {
-    setBooks(books.concat(allBooks.slice(books.length, books.length + 20)));
+    setNumOfBooksLoaded(numOfBooksLoaded + 20);
   }
 
   return (
     <React.Fragment>
       <div className={style.container}>
-        {books.map(book => (
+        {allBooks.slice(0, numOfBooksLoaded).map(book => (
           <Book
             key={book.ISBN}
             isbn={book.ISBN}
@@ -23,6 +23,7 @@ export default function Home() {
             img={book.image}
             author={book.author}
             year={book.year}
+            rating={book.rating}
           />
         ))}
       </div>

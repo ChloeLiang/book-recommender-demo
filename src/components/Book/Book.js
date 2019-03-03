@@ -9,9 +9,7 @@ export default function Book({ isbn, title, author, year, img, rating }) {
     setNumOfClicks(numOfClicks + 1);
   }
 
-  function handleButtonClick(isbn, rating) {
-    console.log(isbn, rating);
-  }
+  function handleButtonClick(rating) {}
 
   return (
     <div className={style.card} onClick={handleCardClick}>
@@ -47,13 +45,13 @@ export default function Book({ isbn, title, author, year, img, rating }) {
       >
         <h2 className={style.titleBack}>Rating</h2>
         <div className={style.buttons}>
-          {Array.from(Array(10).keys()).map(index => (
+          {Array.from(Array(10).keys()).map(ratingIndex => (
             <span
-              key={index}
+              key={ratingIndex}
               className={style.rateButton}
-              onClick={() => handleButtonClick(isbn, index + 1)}
+              onClick={() => handleButtonClick(ratingIndex + 1)}
             >
-              {index + 1}
+              {ratingIndex + 1}
             </span>
           ))}
         </div>

@@ -4,15 +4,19 @@ import Layout from '../../layouts/Layout';
 import Home from '../../components/Home';
 import Rated from '../../components/Rated';
 import Recommend from '../../components/Recommend';
-import { allBooks } from '../../data/books';
 import { BooksContext } from '../../context';
 
 export default function App() {
-  const [books, setBooks] = useState(allBooks.slice(0, 20));
+  const [numOfBooksLoaded, setNumOfBooksLoaded] = useState(20);
+  const [ratedBooks, setRatedBooks] = useState([
+    { isbn: '0140386645', rating: 8 },
+  ]);
 
   const booksContext = {
-    books,
-    setBooks,
+    numOfBooksLoaded,
+    setNumOfBooksLoaded,
+    ratedBooks,
+    setRatedBooks,
   };
 
   return (
