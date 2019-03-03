@@ -1,6 +1,8 @@
 import React from 'react';
 
 export const BooksContext = React.createContext({
-  books: [],
-  setBooks() {},
+  numOfBooksLoaded: 0,
+  setNumOfBooksLoaded() {},
+  ratedBooks: { isbn: [], rating: [] },
+  setRatedBooks() {},
 });

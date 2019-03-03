@@ -6,32 +6,46 @@ import style from './Home.module.scss';
 
 export default function Home() {
   const context = useContext(BooksContext);
-  const { numOfBooksLoaded, setNumOfBooksLoaded } = context;
+  const { numOfBooksLoaded, setNumOfBooksLoaded, ratedBooks } = context;
 
   function handleLoadMore() {
-    setNumOfBooksLoaded(numOfBooksLoaded + 20);
+    const numShouldLoad = numOfBooksLoaded + 20;
+    const totalBooksInStore = allBooks.length;
+    setNumOfBooksLoaded(
+      numShouldLoad > totalBooksInStore ? totalBooksInStore : numShouldLoad
+    );
   }
 
   return (
     <React.Fragment>
       <div className={style.container}>
-        {allBooks.slice(0, numOfBooksLoaded).map(book => (
-          <Book
-            key={book.ISBN}
-            isbn={book.ISBN}
-            title={book.title}
-            img={book.image}
-            author={book.author}
-            year={book.year}
-            rating={book.rating}
-          />
-        ))}
+        {allBooks.slice(0, numOfBooksLoaded).map(book => {
+          const foundIndex = ratedBooks.isbn.findIndex(
+            isbn => book.ISBN === isbn
+          );
+          const rating =
+            foundIndex !== -1 ? ratedBooks.rating[foundIndex] : null;
+
+          return (
+            <Book
+              key={book.ISBN}
+              isbn={book.ISBN}
+              title={book.title}
+              img={book.image}
+              author={book.author}
+              year={book.year}
+              rating={rating}
+            />
+          );
+        })}
       </div>
-      <div className={style.btnContainer}>
-        <button className={style.loadButton} onClick={handleLoadMore}>
-          Load more
-        </button>
-      </div>
+      {numOfBooksLoaded < allBooks.length && (
+        <div className={style.btnContainer}>
+          <button className={style.loadButton} onClick={handleLoadMore}>
+            Load more
+          </button>
+        </div>
+      )}
     </React.Fragment>
   );
 }
