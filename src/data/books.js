@@ -556,6 +556,7 @@ export const allBooks = [
     author: 'Anne Rice',
     year: 1993,
     image: 'http://images.amazon.com/images/P/0345337662.01.LZZZZZZZ.jpg',
+    rating: 5
   },
   {
     ISBN: '0380600129',
@@ -1097,6 +1098,7 @@ export const allBooks = [
     author: 'J. K. Rowling',
     year: 1999,
     image: 'http://images.amazon.com/images/P/0439064864.01.LZZZZZZZ.jpg',
+    rating: 9
   },
   {
     ISBN: '0439064872',
@@ -1111,6 +1113,7 @@ export const allBooks = [
     author: 'J. K. Rowling',
     year: 1999,
     image: 'http://images.amazon.com/images/P/0439136350.01.LZZZZZZZ.jpg',
+    rating: 9
   },
   {
     ISBN: '0439136369',
@@ -1125,6 +1128,7 @@ export const allBooks = [
     author: 'J. K. Rowling',
     year: 2000,
     image: 'http://images.amazon.com/images/P/0439139597.01.LZZZZZZZ.jpg',
+    rating: 9
   },
   {
     ISBN: '0451167317',
@@ -1153,6 +1157,7 @@ export const allBooks = [
     author: 'J. K. Rowling',
     year: 1998,
     image: 'http://images.amazon.com/images/P/0590353403.01.LZZZZZZZ.jpg',
+    rating: 9
   },
   {
     ISBN: '0618002219',
@@ -1857,6 +1862,7 @@ export const allBooks = [
     author: 'Ellen Raskin',
     year: 1997,
     image: 'http://images.amazon.com/images/P/0140386645.01.LZZZZZZZ.jpg',
+    rating: 8
   },
   {
     ISBN: '0142000663',
@@ -1864,6 +1870,7 @@ export const allBooks = [
     author: 'John Steinbeck',
     year: 2002,
     image: 'http://images.amazon.com/images/P/0142000663.01.LZZZZZZZ.jpg',
+    rating: 10
   },
   {
     ISBN: '043935806X',
@@ -1871,6 +1878,7 @@ export const allBooks = [
     author: 'J. K. Rowling',
     year: 2003,
     image: 'http://images.amazon.com/images/P/043935806X.01.LZZZZZZZ.jpg',
+    rating: 9
   },
   {
     ISBN: '051513628X',
@@ -1878,6 +1886,7 @@ export const allBooks = [
     author: 'Nora Roberts',
     year: 2003,
     image: 'http://images.amazon.com/images/P/051513628X.01.LZZZZZZZ.jpg',
+    rating: 6
   },
   {
     ISBN: '0553573136',
@@ -1885,6 +1894,7 @@ export const allBooks = [
     author: 'PAUL REISER',
     year: 1995,
     image: 'http://images.amazon.com/images/P/0553573136.01.LZZZZZZZ.jpg',
+    rating: 8
   },
   {
     ISBN: '0765342987',
@@ -1892,6 +1902,7 @@ export const allBooks = [
     author: 'Jacqueline Carey',
     year: 2002,
     image: 'http://images.amazon.com/images/P/0765342987.01.LZZZZZZZ.jpg',
+    rating: 10
   },
   {
     ISBN: '0812575717',
@@ -1899,6 +1910,7 @@ export const allBooks = [
     author: 'Orson Scott Card',
     year: 2000,
     image: 'http://images.amazon.com/images/P/0812575717.01.LZZZZZZZ.jpg',
+    rating: 10
   },
   {
     ISBN: '0060987529',
