@@ -6,7 +6,7 @@ import style from './Home.module.scss';
 
 export default function Home() {
   const context = useContext(BooksContext);
-  const { numOfBooksLoaded, setNumOfBooksLoaded } = context;
+  const { numOfBooksLoaded, setNumOfBooksLoaded, ratedBooks } = context;
 
   function handleLoadMore() {
     const numShouldLoad = numOfBooksLoaded + 20;
@@ -19,17 +19,26 @@ export default function Home() {
   return (
     <React.Fragment>
       <div className={style.container}>
-        {allBooks.slice(0, numOfBooksLoaded).map(book => (
-          <Book
-            key={book.ISBN}
-            isbn={book.ISBN}
-            title={book.title}
-            img={book.image}
-            author={book.author}
-            year={book.year}
-            rating={book.rating}
-          />
-        ))}
+        {allBooks.slice(0, numOfBooksLoaded).map(book => {
+          let rating;
+          for (let i = 0; i < ratedBooks.length; i++) {
+            if (ratedBooks[i].isbn === book.ISBN) {
+              rating = ratedBooks[i].rating;
+            }
+          }
+
+          return (
+            <Book
+              key={book.ISBN}
+              isbn={book.ISBN}
+              title={book.title}
+              img={book.image}
+              author={book.author}
+              year={book.year}
+              rating={rating}
+            />
+          );
+        })}
       </div>
       {numOfBooksLoaded < allBooks.length && (
         <div className={style.btnContainer}>

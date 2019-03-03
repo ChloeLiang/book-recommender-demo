@@ -1,15 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import classNames from 'classnames';
+import { BooksContext } from '../../context';
 import style from './Book.module.scss';
 
 export default function Book({ isbn, title, author, year, img, rating }) {
   const [numOfClicks, setNumOfClicks] = useState(0);
+  const context = useContext(BooksContext);
+  const { ratedBooks, setRatedBooks } = context;
 
   function handleCardClick() {
     setNumOfClicks(numOfClicks + 1);
   }
 
-  function handleButtonClick(rating) {}
+  function handleButtonClick(rating) {
+    setRatedBooks(ratedBooks.concat({ isbn, rating }));
+  }
 
   return (
     <div className={style.card} onClick={handleCardClick}>
