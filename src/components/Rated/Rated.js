@@ -2,14 +2,13 @@ import React, { useContext } from 'react';
 import Book from '../Book';
 import { BooksContext } from '../../context';
 import { allBooks } from '../../data/books';
-import style from './Rated.module.scss';
 
 export default function Rated() {
   const context = useContext(BooksContext);
   const { ratedBooks } = context;
 
   return (
-    <div className={style.container}>
+    <div className="container">
       {allBooks.map(book => {
         const foundIndex = ratedBooks.isbn.findIndex(
           ratedISBN => book.ISBN === ratedISBN

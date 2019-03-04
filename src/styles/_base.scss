@@ -29,11 +29,10 @@ a {
 }
 
 .container {
-  max-width: $max-width-form;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: $max-width;
   margin: 0 auto;
-  padding: 1rem;
-}
-
-.primaryHeading {
-  margin-bottom: 2rem;
+  padding: 2rem 0;
+  justify-content: center;
 }

@@ -2,13 +2,17 @@
 
 .card {
   height: 38rem;
-  width: 25rem;
+  width: 21rem;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   margin: 2rem 0;
   position: relative;
   perspective: 150rem;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
 
 .side {
@@ -112,6 +116,7 @@
   padding: 1rem;
   flex-grow: 1;
   align-content: flex-start;
+  justify-content: center;
 }
 
 .rateButton {
