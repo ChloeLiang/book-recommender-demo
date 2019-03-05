@@ -28,15 +28,15 @@ export default function Recommend() {
       const payload = transformToPayload(ratedBooks);
       fetchRecommendedBooks(payload);
     }
-  });
+  }, [ratedBooks]);
 
   return (
     <div className="container">
       {isLoading && <p>Loading...</p>}
       {recommendedBooks.map(book => (
         <Book
-          key={book.ISBN}
-          isbn={book.ISBN}
+          key={book.book_id}
+          isbn={book.book_id}
           title={book.title}
           author={book.author}
           year={book.year}
