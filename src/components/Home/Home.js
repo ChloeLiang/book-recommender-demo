@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <React.Fragment>
-      <div className={style.container}>
+      <div className="container">
         {allBooks.slice(0, numOfBooksLoaded).map(book => {
           const foundIndex = ratedBooks.isbn.findIndex(
             isbn => book.ISBN === isbn
