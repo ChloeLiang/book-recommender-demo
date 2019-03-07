@@ -20,11 +20,11 @@ body {
 }
 
 a {
-  color: $color-primary;
+  color: $color-orange-light;
   text-decoration: none;
 
   &:hover {
-    color: $color-primary-dark;
+    color: $color-orange-dark;
   }
 }
 

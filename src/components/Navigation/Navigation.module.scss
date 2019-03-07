@@ -1,10 +1,13 @@
 @import '../../styles/variables';
 
 .navbar {
-  background: $color-primary;
+  background: linear-gradient(to left, $color-orange-light, $color-orange-dark);
   height: 5rem;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 
   ul {
     list-style: none;
