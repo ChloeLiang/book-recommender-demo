@@ -13,9 +13,24 @@ export default function Book({ isbn, title, author, year, img, rating }) {
   }
 
   function handleButtonClick(rating) {
+    const indexOfThis = ratedBooks.isbn.findIndex(i => i === isbn);
+
+    let ratedBooksExcludingThis = ratedBooks;
+    if (indexOfThis !== -1) {
+      const isbnClone = [...ratedBooks.isbn];
+      isbnClone.splice(indexOfThis, 1);
+      const ratingClone = [...ratedBooks.rating];
+      ratingClone.splice(indexOfThis, 1);
+
+      ratedBooksExcludingThis = {
+        isbn: isbnClone,
+        rating: ratingClone,
+      };
+    }
+
     setRatedBooks({
-      isbn: ratedBooks.isbn.concat(isbn),
-      rating: ratedBooks.rating.concat(rating),
+      isbn: ratedBooksExcludingThis.isbn.concat(isbn),
+      rating: ratedBooksExcludingThis.rating.concat(rating),
     });
   }
 
