@@ -75,7 +75,8 @@ export const allBooks = [
     title: 'One for the Money (Stephanie Plum Novels (Paperback))',
     author: 'Janet Evanovich',
     year: 1995,
-    image: 'https://upload.wikimedia.org/wikipedia/en/7/7a/1fortheMoney_novel.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/7/7a/1fortheMoney_novel.jpg',
   },
   {
     ISBN: '0316776963',
@@ -640,7 +641,8 @@ export const allBooks = [
     title: 'One True Thing',
     author: 'Anna Quindlen',
     year: 1995,
-    image: 'https://i.pinimg.com/originals/ec/25/10/ec2510e85e649c0274dd0e7e57171409.jpg',
+    image:
+      'https://i.pinimg.com/originals/ec/25/10/ec2510e85e649c0274dd0e7e57171409.jpg',
   },
   {
     ISBN: '0440223571',
@@ -753,13 +755,6 @@ export const allBooks = [
     author: 'Janet Evanovich',
     year: 2003,
     image: 'http://images.amazon.com/images/P/0312983867.01.LZZZZZZZ.jpg',
-  },
-  {
-    ISBN: '0312990456',
-    title: 'One for the Money (A Stephanie Plum Novel)',
-    author: 'Janet Evanovich',
-    year: 2003,
-    image: 'http://images.amazon.com/images/P/0312990456.01.LZZZZZZZ.jpg',
   },
   {
     ISBN: '0345350499',
@@ -1954,7 +1949,8 @@ export const allBooks = [
     title: "Hitchhikers's Guide to the Galaxy",
     author: 'Douglas Adams',
     year: 1984,
-    image: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/3454/9780345453747.jpg',
+    image:
+      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/3454/9780345453747.jpg',
   },
   {
     ISBN: '0060392452',
@@ -2383,7 +2379,8 @@ export const allBooks = [
     title: 'The Lost World',
     author: 'Michael Crichton',
     year: 1996,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/41AFWPPAp3L._SX277_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/41AFWPPAp3L._SX277_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0380012863',
@@ -3850,7 +3847,8 @@ export const allBooks = [
     title: 'RUSSIA HOUSE, THE',
     author: 'JOHN LE CARRE',
     year: 1990,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/81/JohnLeCarre_TheRussiaHouse.jpg/220px-JohnLeCarre_TheRussiaHouse.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/8/81/JohnLeCarre_TheRussiaHouse.jpg/220px-JohnLeCarre_TheRussiaHouse.jpg',
   },
   {
     ISBN: '0671011375',
@@ -4468,7 +4466,8 @@ export const allBooks = [
     title: 'SKINNY LEGS AND ALL',
     author: 'TOM ROBBINS',
     year: 1991,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Skinnylegs.jpg/220px-Skinnylegs.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Skinnylegs.jpg/220px-Skinnylegs.jpg',
   },
   {
     ISBN: '0553574663',
@@ -4588,7 +4587,8 @@ export const allBooks = [
     title: 'The Stone Monkey (Lincoln Rhyme Novels (Paperback))',
     author: 'Jeffery Deaver',
     year: 2003,
-    image: 'https://www.jefferydeaver.com/wp-content/uploads/2013/01/TheStoneMonkeyMM.jpg',
+    image:
+      'https://www.jefferydeaver.com/wp-content/uploads/2013/01/TheStoneMonkeyMM.jpg',
   },
   {
     ISBN: '0060096195',
@@ -4933,7 +4933,8 @@ export const allBooks = [
     title: 'Christy',
     author: 'Catherine Marshall',
     year: 1976,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/51YNd1vhjjL._SX303_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/51YNd1vhjjL._SX303_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0380710722',
@@ -5122,7 +5123,8 @@ export const allBooks = [
     title: "Charlotte's Web",
     author: 'E. B. White',
     year: 1974,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/51tP8AeYLPL._SX331_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/51tP8AeYLPL._SX331_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0671250671',
@@ -6061,7 +6063,8 @@ export const allBooks = [
     title: 'SEEDS OF YESTERDY (Dollanger Saga (Paperback))',
     author: 'V.C. Andrews',
     year: 1984,
-    image: 'https://cdn1.thr.com/sites/default/files/imagecache/NFE_portrait/2014/10/seeds_of_yesterday_cover.jpg',
+    image:
+      'https://cdn1.thr.com/sites/default/files/imagecache/NFE_portrait/2014/10/seeds_of_yesterday_cover.jpg',
   },
   {
     ISBN: '0671670646',
@@ -6357,14 +6360,16 @@ export const allBooks = [
     title: 'Different Seasons',
     author: 'Stephen King',
     year: 1983,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/61cxm5XXvJL._SX325_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/61cxm5XXvJL._SX325_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0451147367',
     title: 'The Bachman Books: Rage, the Long Walk, Roadwork, the Running Man',
     author: 'Stephen King',
     year: 1991,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Bachmanbooks.JPG',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/9/9b/Bachmanbooks.JPG',
   },
   {
     ISBN: '0451162072',
@@ -6975,7 +6980,8 @@ export const allBooks = [
     title: 'The Cat Who Came for Christmas',
     author: 'Cleveland Amory',
     year: 1989,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/51BDd6EpkPL._SX322_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/51BDd6EpkPL._SX322_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '0140143505',
@@ -7229,7 +7235,8 @@ export const allBooks = [
     title: 'Eaters of the Dead',
     author: 'MICHAEL CRICHTON',
     year: 1988,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Big-eatersofthedead.jpg/200px-Big-eatersofthedead.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Big-eatersofthedead.jpg/200px-Big-eatersofthedead.jpg',
   },
   {
     ISBN: '0345354621',
@@ -7544,7 +7551,8 @@ export const allBooks = [
     title: 'The Mosquito Coast',
     author: 'Paul Theroux',
     year: 1990,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/78/TheMosquitoCoastNovel.jpg/220px-TheMosquitoCoastNovel.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/7/78/TheMosquitoCoastNovel.jpg/220px-TheMosquitoCoastNovel.jpg',
   },
   {
     ISBN: '0380721643',
@@ -7665,7 +7673,8 @@ export const allBooks = [
       'Like Water for Chocolate: A Novel in Monthly Installments With Recipes, Romances and Home Remedies',
     author: 'Laura Esquivel',
     year: 1994,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/51Ncv9bpRmL._SX318_BO1,204,203,200_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/51Ncv9bpRmL._SX318_BO1,204,203,200_.jpg',
   },
   {
     ISBN: '038549081X',
@@ -8694,21 +8703,24 @@ export const allBooks = [
     title: 'Pet Sematary',
     author: 'Stephen King',
     year: 1984,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/52/StephenKingPetSematary.jpg/220px-StephenKingPetSematary.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/5/52/StephenKingPetSematary.jpg/220px-StephenKingPetSematary.jpg',
   },
   {
     ISBN: '0451149513',
     title: 'It',
     author: 'Stephen King',
     year: 1987,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/81D1Kl8Y5lL._RI_.jpg',
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/81D1Kl8Y5lL._RI_.jpg',
   },
   {
     ISBN: '0451153553',
     title: 'Misery',
     author: 'Stephen King',
     year: 1988,
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Stephen_King_Misery_cover.jpg/220px-Stephen_King_Misery_cover.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Stephen_King_Misery_cover.jpg/220px-Stephen_King_Misery_cover.jpg',
   },
   {
     ISBN: '0451167805',
