@@ -13,6 +13,8 @@ Download the back end API for this project [here]().
 
 Install [Node.js](https://nodejs.org/en/) (version 8.10.0 or later).
 
+The back end API can be downloaded [here](https://github.com/ppeyliang/book-recommender).
+
 ### Installing
 
 Install all the dependencies:
