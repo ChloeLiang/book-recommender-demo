@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import Book from '../Book';
+import Spinner from '../Spinner';
 import { BooksContext } from '../../context';
 import { transformToPayload } from '../../utils';
 import { getRecommendedBooks } from '../../services/recommender';
@@ -32,7 +33,7 @@ export default function Recommend() {
 
   return (
     <div className="container">
-      {isLoading && <p>Loading...</p>}
+      {isLoading && <Spinner />}
       {recommendedBooks.map(book => (
         <Book
           key={book.book_id}
