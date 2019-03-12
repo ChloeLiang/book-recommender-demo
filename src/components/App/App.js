@@ -9,8 +9,21 @@ import { BooksContext } from '../../context';
 export default function App() {
   const [numOfBooksLoaded, setNumOfBooksLoaded] = useState(20);
   const [ratedBooks, setRatedBooks] = useState({
-    isbn: [],
-    rating: [],
+    isbn: [
+      '0140386645',
+      '0142000663',
+      '0345337662',
+      '0439064864',
+      '0439136350',
+      '0439139597',
+      '043935806X',
+      '051513628X',
+      '0553573136',
+      '0590353403',
+      '0765342987',
+      '0812575717',
+    ],
+    rating: [8, 10, 5, 9, 9, 9, 9, 6, 8, 9, 10, 10],
   });
 
   const booksContext = {
