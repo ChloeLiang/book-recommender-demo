@@ -1,5 +1,5 @@
 # Book Recommender Demo
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0f12d028-66d7-475f-9100-23976f681f89/deploy-status)](https://app.netlify.com/sites/book-recommender/deploys)
 
@@ -37,7 +37,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://chloeliang.github.io/"><img src="https://avatars0.githubusercontent.com/u/28077042?v=4" width="100px;" alt="Liang Xin, Chloe"/><br /><sub><b>Liang Xin, Chloe</b></sub></a><br /><a href="#maintenance-ChloeLiang" title="Maintenance">🚧</a> <a href="https://github.com/ChloeLiang/book-recommender-demo/commits?author=ChloeLiang" title="Code">💻</a> <a href="https://github.com/ChloeLiang/book-recommender-demo/commits?author=ChloeLiang" title="Documentation">📖</a></td></tr></table>
+<table><tr><td align="center"><a href="https://chloeliang.github.io/"><img src="https://avatars0.githubusercontent.com/u/28077042?v=4" width="100px;" alt="Liang Xin, Chloe"/><br /><sub><b>Liang Xin, Chloe</b></sub></a><br /><a href="#maintenance-ChloeLiang" title="Maintenance">🚧</a> <a href="https://github.com/ChloeLiang/book-recommender-demo/commits?author=ChloeLiang" title="Code">💻</a> <a href="https://github.com/ChloeLiang/book-recommender-demo/commits?author=ChloeLiang" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/ppeyliang"><img src="https://avatars3.githubusercontent.com/u/43884468?v=4" width="100px;" alt="Liang Yue, Janice"/><br /><sub><b>Liang Yue, Janice</b></sub></a><br /><a href="https://github.com/ChloeLiang/book-recommender-demo/commits?author=ppeyliang" title="Code">💻</a> <a href="#review-ppeyliang" title="Reviewed Pull Requests">👀</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
