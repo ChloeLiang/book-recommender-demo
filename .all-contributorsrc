@@ -1,0 +1,26 @@
+{
+  "projectName": "book-recommender-demo",
+  "projectOwner": "ChloeLiang",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "ChloeLiang",
+      "name": "Liang Xin, Chloe",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28077042?v=4",
+      "profile": "https://chloeliang.github.io/",
+      "contributions": [
+        "maintenance",
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
